@@ -141,6 +141,10 @@ body {
 .dropdown-menu {
     border-radius: 0px;
 }
+.o_chatter_header_container .o_composer_mention_dropdown .dropdown-menu.show{
+	position: inherit; 
+	bottom: unset;
+}
 
 oe_highlight {
     color: #ffffff !important;
