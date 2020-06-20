@@ -410,7 +410,7 @@ textarea, select, .o_form_view.o_form_editable .o_form_field_many2manytags,
 }
 
 .o_menu_apps .dropdown-menu.show .o-app-icon:hover {
-	box-shadow: 0 8px 15px -10px black;
+	filter: drop-shadow(0 8px 15px rgba(0, 0, 0, 0.45));
     transform: translateY(-1px);
 }
 
