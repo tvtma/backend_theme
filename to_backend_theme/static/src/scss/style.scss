@@ -418,8 +418,12 @@ textarea, select, .o_form_view.o_form_editable .o_form_field_many2manytags,
     background: transparent;
 }
 
+.dropdown-item.active, .dropdown-item:active {
+	color: $brand-primary;
+}
+
 .o-menu-search-result {
-	color: #fff;
+	color: $info;
 }
 
 // Chat window
